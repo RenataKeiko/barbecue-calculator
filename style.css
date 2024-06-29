@@ -1,0 +1,94 @@
+html, body {
+    background-image: url(imagem/fundo.jpg);
+    background-size: 100%;
+    font-family: Courier New, sans-serif bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container principal */
+  .container {
+    background-color: #dfd8d8;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+
+  /* Seção de título e imagem */
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .churrasco-image {
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 5px;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.979);
+  }
+  
+  /* Formulário */
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  #formulario label {
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  #formulario input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #formulario button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #formulario button:hover {
+    background-color: #55e9bd;
+  }
+  
+  /* Seção de resultados */
+  #resultado {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
