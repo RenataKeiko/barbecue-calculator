@@ -25,6 +25,10 @@ html, body {
   }
   
   h1 {
+    color: #ffffff;
+  }
+
+  h2 {
     color: #000000;
   }
 
@@ -39,59 +43,22 @@ html, body {
     border-radius: 8px;
     margin-right: 5px;
   }
-  
-  .centered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.979);
-  }
-  
-  /* Formulário */
-  #formulario {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-  }
-  
-  #formulario label {
-    margin: 10px 0 5px;
-    color: #333;
-  }
-  
-  #formulario input[type="number"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  #formulario button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
+    
   /* Seção de resultados */
   #resultado {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #e9ecef;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    .resultado {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e9ecef;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
   }
 
-  .button_calcular {
+  .button {
     padding: 10px;
-    background-color: #007bff;
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -99,6 +66,20 @@ html, body {
     margin-top: 10px;
 
     &&:hover {
-      background-color: #55e9bd;
+      background-color: #b60e0e;
+      cursor: pointer;
     }
+  }
+
+  
+
+  .main-table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .table-label {
+    display: flex;
+    justify-content: start;
+    color: #ccc;
   }
